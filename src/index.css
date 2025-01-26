@@ -1,0 +1,121 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Main App Container */
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.App h1 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input, form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+form button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* RSVP List Styling */
+.rsvp-list {
+  list-style: none;
+  padding: 0;
+}
+
+.rsvp-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rsvp-list li:nth-child(even) {
+  background-color: #f4f4f9;
+}
+
+/* Buttons for Each Item */
+.rsvp-list button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.rsvp-list .edit-btn {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.rsvp-list .edit-btn:hover {
+  background-color: #e68900;
+}
+
+.rsvp-list .delete-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.rsvp-list .delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Footer or Small Text */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
